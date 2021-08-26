@@ -1,6 +1,6 @@
 Aprendendo banco de dados com PHP
 
-<h1>Usando o PDO para</h1>
+<h4>Usando o PDO para:</h4>
 - Conectar com o banco <br>
 - Inserir dados no banco <br>
 - Atualizar dado no banco <br>
