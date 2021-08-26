@@ -7,7 +7,7 @@ $dbpass = "P63H65P";
 try {
     $pdo = new PDO($dsn, $dbuser, $dbpass);
 
-    $nome = 'Pedro';
+    $nome = 'Alessandro';
     $id = 10;
     //Os dois pontos (:) eu estou avisando para o PDO que vou mandar uma variavel
     $sql = "UPDATE usuarios SET nome = :nome WHERE id = :id";

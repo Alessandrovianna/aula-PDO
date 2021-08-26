@@ -7,10 +7,10 @@ $dbpass = "P63H65P";
 try {
     $pdo = new PDO($dsn, $dbuser, $dbpass);
 
-    echo "Conex�o estabelecida com sucesso";
+    echo "Conexão estabelecida com sucesso";
 
 } catch(PDOException $e) {
-    echo "Falhou: ".$e->getMessage();
+    echo "Falhou a conexão: ".$e->getMessage();
 }
 
 ?>

@@ -12,7 +12,7 @@ try {
 
     echo "Deletado com sucesso!";
 } catch(PDOException $e) {
-    echo "Falhou: ".$e->getMessage();
+    echo "Falhou, não foi deletado: ".$e->getMessage();
 }
 
 ?>

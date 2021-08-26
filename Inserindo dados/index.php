@@ -7,8 +7,8 @@ $dbpass = "P63H65P";
 try {
     $pdo = new PDO($dsn, $dbuser, $dbpass);
 
-    $nome = "Ciclanp";
-    $email = "ciclano@gmail.com";
+    $nome = "Fulano";
+    $email = "fulano@gmail.com";
     $senha = md5("1234");
 
     $sql = "INSERT INTO usuarios SET nome = '$nome', email = '$email', senha = '$senha'";
